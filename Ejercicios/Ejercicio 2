@@ -1,5 +1,3 @@
-Ejercicio 2.
-
 Elemento(Nombre_elem(VARCHAR), Peso-atómico(FLOAT), Símbolo(VARCHAR), Nºatómico(VARCHAR))
 Compuesto(Nombre_Comp(VARCHAR), estado(VARCHAR))
 Compuesto_por(Nombre_elem(VARCHAR), Nombre_Comp(VARCHAR), proporción(INT))
