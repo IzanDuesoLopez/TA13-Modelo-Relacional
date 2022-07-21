@@ -1,0 +1,8 @@
+Ejercicio 2.
+
+Elemento(Nombre_elem(VARCHAR), Peso-atómico(FLOAT), Símbolo(VARCHAR), Nºatómico(VARCHAR))
+Compuesto(Nombre_Comp(VARCHAR), estado(VARCHAR))
+Compuesto_por(Nombre_elem(VARCHAR), Nombre_Comp(VARCHAR), proporción(INT))
+Gaseoso(Nombre_comp(VARCHAR), Coef_expan(FLOAT), Temp_lic(FLOAT))
+Líquido(Nombre_comp(VARCHAR), Densidad(FLOAT), Temp_evap(FLOAT))
+Sólido(Nombre_comp(VARCHAR), Color(VARCHAR), Olor(VARCHAR), Dureza(FLOAT))
