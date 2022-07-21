@@ -1,0 +1,9 @@
+Ejercicio 5.
+
+Libro(Signatura(VARCHAR), Disponible(BOOLEAN))
+Préstamo(NºPréstamo(VARCHAR), Fecha_prest(DATE), Tipo(VARCHAR), Signatura(VARCHAR), NºSocio(VARCHAR))
+Prestamo_S(NºPréstamo(VARCHAR))
+Prestamo_E(NºPréstamo(VARCHAR), Fecha_Devol(DATE))
+Fondo(Título(VARCHAR), Autor(VARCHAR), Cantidad(INT), Signatura(VARCHAR))
+Sanción(NºDias(INT))
+Socios(NºSocio(VARCHAR), Nombre(VARCHAR), Apellidos(VARCHAR), Telefono(VARCHAR), Fecha_cad(DATE))
