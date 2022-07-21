@@ -1,0 +1,12 @@
+Ejercicio 4.
+
+Coche(Num_Coche(INT), Marca(VARCHAR), Modelo(VARCHAR), Num_Matrícula(VARCHAR), Fecha_Compra(DATE), Fecha_ult_rev(DATE))
+ParqueBomberos(Cod_Parque(INT), Nombre(VARCHAR), Dirección(VARCHAR), Teléfono(VARCHAR), Categoría(VARCHAR), Num_Coche(INT))
+PeticiónServicio(CodPetServ(INT), Tipo_Serv(VARCHAR), GradoUrgencia(INT))
+Recibe(Cod_Parque(INT), CodPetServ(INT), Fecha(DATE), Hora(HOUR))
+Bombero(Cod_Bom(INT), Nombre(VARCHAR), Apellidos(VARCHAR), Fecha_Nac(DATE), DNI(VARCHAR), Dirección(VARCHAR), Teléfono(VARCHAR), Puesto(VARCHAR), Cod_Parque(INT), Cod_Eq(INT))
+Período(Fecha_Inicio(DATE), Fecha_fin(DATE))
+Turno(Cod_Turno(INT), Descripcion(VARCHAR))
+TrabajaEn(Cod_Bom(INT), Cod_Turno(INT), Fecha_Inicio(DATE), Fecha_Fin(DATE))
+Equipo(Cod_Eq(INT), Nombre(VARCHAR))
+PeticiónServicio(CodPerServ(INT), Tipo_Serv(VARCHAR), Grado_Urgencia(INT))
