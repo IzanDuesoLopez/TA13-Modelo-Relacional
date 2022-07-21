@@ -1,0 +1,6 @@
+Ejercicio 6.
+
+Proveedor(Cod_proveedor(INT), unidades(INT), fecha_encargo(DATE))
+Producto(Cod_producto(INT), Cantidad(INT), Cod_proveedor(INT))
+Pedido(Cod_pedido(INT), Fecha_pedido(DATE), Num_unidades(INT), Cod_producto(INT))
+Cliente(Cod_cliente(INT), Cod_pedido(INT))
