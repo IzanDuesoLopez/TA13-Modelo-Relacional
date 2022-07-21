@@ -1,0 +1,5 @@
+Arrendatario(NIF(VARCHAR), NombreFiscal(VARCHAR), NombreFirmante(VARCHAR), CargoFirmante(VARCHAR), Dirección(VARCHAR), CódigoPostal(VARCHAR), Localidad(VARCHAR), Provincia(VARCHAR), TeléfonoFijo(VARCHAR), TeléfonoMóvil(VARCHAR), Fax(VARCHAR), Actividad(VARCHAR), NúmeroDeCuenta(VARCHAR), DiasDePago(INT), FechaAlquiler(DATE), FechaFinAlquiler(DATE),ImporteAlquiler(FLOAT))
+
+Nave(CódigoNave(INT), poligono(VARCHAR), calle(VARCHAR), número(INT), localidad(VARCHAR), códigoPostal(VARCHAR), provincia(VARCHAR), teléfono(VARCHAR), caracteristicas(VARCHAR), foto(VARCHAR), datos escritura(VARCHAR), alquilada(BOOLEAN), gastosComunidad(FLOAT), NIF(VARCHAR))
+
+Recibo(NúmeroRecibo(INT), NIF(VARCHAR), CódigoNave(INT), importeTotal(FLOAT), ImporteIVA(FLOAT), pagado(BOOLEAN), fecha(DATE))
