@@ -1,0 +1,8 @@
+Ejercicio 3.
+
+Cliente(DNI(VARCHAR), Nombre(VARCHAR), Apellidos(VARCHAR), Dirección(VARCHAR), Ciudad(VARCHAR))
+Sucursal(NºSucursal(INT), Ciudad(VARCHAR), Activo(BOOLEAN))
+Cuenta(NºCuenta(VARCHAR), Saldo(FLOAT))
+Abrir(DNI(VARCHAR), NºSucursal(VARCHAR), NºCuenta(VARCHAR))
+Cuenta(NºCuenta(VARCHAR), Saldo(FLOAT))
+Transacción(NºTransacción(VARCHAR), Fecha(DATE), TipoOperación(BOOLEAN), Cantidad(FLOAT), NºCuenta(VARCHAR))
