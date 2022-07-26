@@ -1,0 +1,11 @@
+Liga(IDLiga(INT), pais(VARCHAR), temporada(INT))
+Equipo(IDEquipo(INT), nombre(VARCHAR), estadio(VARCHAR), presidente(VARCHAR), himno(VARCHAR), IDLiga(INT))
+Jugador(IDJugador(INT), nombre(VARCHAR), peso(FLOAT), altura(FLOAT), dorsal(INT), goles(INT), asistencias(INT), faltas(INT), edad(INT), IDEquipo(INT)
+
+Entrenador(IDEntrenador(INT), nombre(VARCHAR), edad(INT), añosExperiencia(INT), IDEquipo(INT))
+
+Partido(IDPartido(INT), equipoLocal(VARCHAR), equipoVisitante(VARCHAR), resultado(INT), IDEquipo(INT), IDPartido(INT))
+
+JuegaPartido(IDEquipo(INT), IDPartido(INT))
+
+Arbitro(IDArbitro(INT), nombre(VARCHAR), edad(INT))
